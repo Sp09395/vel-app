@@ -16,7 +16,7 @@ sh "yum install httpd -y"
 
 }
 
-stage('start-apache')
+  stage('start-apache'){
 
 steps{
 sh "service httpd start"
